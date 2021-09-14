@@ -1,0 +1,140 @@
+/* default design start here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+/* default design ends here */
+
+/* nabBar design starts here */
+.nav-bar {
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0px;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #9b59b6;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+}
+.logo span {
+  color: #e67e22;
+  font-style: italic;
+}
+.search-feild {
+  margin-top: 12px;
+}
+.search-feild input {
+  padding: 8px;
+  outline: none;
+}
+.search-feild button {
+  padding: 8px 25px;
+  background-color: #e67e22;
+  border: none;
+  border-radius: 3px;
+}
+.menu {
+  margin-top: 7px;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+}
+.menu ul li:hover {
+  background-color: #e67e22;
+}
+.menu ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+/* nabBar design  ends here */
+
+/* cover design starts here */
+.cover {
+  background: url(image/cover.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.cover-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 300px;
+  text-align: center;
+  color: #fff;
+}
+.cover-content h3 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.cover-content h3 span {
+  color: #e67e22;
+  font-style: italic;
+  font-size: 2.2rem;
+}
+/* cover design emds here */
+
+/* about me design starts here */
+.about-section {
+  margin: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.own-feild {
+  width: 45%;
+}
+.own-feild img {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-left: 65px;
+  border-radius: 50%;
+}
+.content {
+  margin: 120px;
+  width: 45%;
+}
+.content h2 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.content h2 span {
+  color: #e67e22;
+}
+.content button {
+  background: #e67e22;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+/* about me design ends here */
+
+/* team design starts here */
+.team {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.team div {
+  margin-right: 20px;
+}
+
+/* team design ends here */
