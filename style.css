@@ -92,22 +92,23 @@ img {
 
 /* about me design starts here */
 .about-section {
-  margin: 60px;
+  padding: 60px;
   display: flex;
   justify-content: space-around;
+  /* flex-flow: wrap; */
 }
 .own-feild {
   width: 45%;
 }
 .own-feild img {
-  width: 500px;
+  /* width: 500px;
   height: 500px;
   margin: 0 auto;
   margin-left: 65px;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 .content {
-  margin: 120px;
+  margin: 80px;
   width: 45%;
 }
 .content h2 {
@@ -289,19 +290,27 @@ textarea {
     display: block;
   }
   .logo {
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
+  }
+  .logo h1 {
+    text-align: center;
   }
   .search-feild {
     text-align: center;
   }
-
+  .menu {
+    width: 40%;
+  }
   .menu ul {
-    text-align: center;
-    margin-left: 10px;
+    width: 40%;
+    margin: 0 auto;
   }
   .menu ul li {
-    margin: 0 7px;
+    text-align: center;
+  }
+  .menu ul li a {
+    text-align: center;
   }
   .cover-content {
     padding: 300px 10px;
@@ -310,7 +319,7 @@ textarea {
     font-size: 1.4rem;
   }
   .cover-content h3 span {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
   .about-section {
     display: block;
@@ -346,5 +355,8 @@ textarea {
   }
   .arrow {
     margin: 25px 0px;
+  }
+  .text p {
+    font-size: 1.3rem;
   }
 }
