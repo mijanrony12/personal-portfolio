@@ -51,7 +51,7 @@ img {
 }
 .menu ul li {
   list-style: none;
-  margin: 0 15px;
+
   padding: 8px 12px;
 }
 .menu ul li:hover {
@@ -191,3 +191,116 @@ img {
   color: #e67e22;
 }
 /* team design ends here */
+
+/*-=-=-=-=-=-=-=-=-=-=-
+ contact design starts here
+-=-=-=-=-=-=-=-=-=-=- */
+.contact-area {
+}
+.section-title h1 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+}
+.section-title h1 span {
+  color: #e67e22;
+}
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+.contact-form input,
+textarea {
+  width: 100%;
+  padding: 10px 7px;
+}
+.user-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.f-name {
+  width: 48%;
+}
+.l-name {
+  width: 48%;
+}
+.user-email {
+  margin-bottom: 8px;
+}
+
+.user-msg {
+}
+.submit-btn input {
+  margin-top: 8px;
+  background-color: #e67e22;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.submit-btn:hover {
+  width: 30%;
+  margin: 0 auto;
+  color: #fff;
+}
+/*-=-=-=-=-=-=-=-=-=-=-
+ contact design ends here
+-=-=-=-=-=-=-=-=-=-=- */
+
+/*-=-=-=-=-=-=-=-=-=-=-
+ footer design starts here
+-=-=-=-=-=-=-=-=-=-=- */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 25px 0px;
+}
+.icon i {
+  margin-right: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.arrow i {
+  background: #fff;
+  color: #000;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.arrow i:hover {
+  background-color: #e67e22;
+}
+.text p {
+  font-size: 2rem;
+}
+/*-=-=-=-=-=-=-=-=-=-=-
+ footer design ends here
+-=-=-=-=-=-=-=-=-=-=- */
+
+/*-=-=-=-=-=-=-=-=-=-=-
+      responsive work
+-=-=-=-=-=-=-=-=-=-=- */
+
+@media (max-width: 576px) {
+  .nav-bar {
+    display: block;
+  }
+  .logo {
+    width: 35%;
+    margin: 0 auto;
+  }
+  .search-feild {
+    text-align: center;
+  }
+
+  .menu ul {
+    text-align: center;
+    margin-left: 10px;
+  }
+  .menu ul li {
+    margin: 0 7px;
+  }
+}

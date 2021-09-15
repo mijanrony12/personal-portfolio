@@ -25,11 +25,11 @@
                       </div>
                       <div class="menu">
                           <ul>
-                              <li><a href="#">home</a></li>
+                              <li id="home"><a href="#">home</a></li>
                               <li><a href="#about">about</a></li>
                               <li><a href="#">skill</a></li>
-                              <li><a href="#">hobby</a></li>
-                              <li><a href="#">contact</a></li>
+                              <li><a href="#team">team</a></li>
+                              <li><a href="#contact">contact</a></li>
                           </ul>
                       </div>
             </nav>
@@ -63,7 +63,7 @@
 
             <section>
                   <div class="team-area">
-                      <div class="container">
+                      <div class="container" id="team">
                           <div class="section-title">
                               <h2>Our <span>Team</span></h2>
                           </div>
@@ -130,9 +130,60 @@
             </section>
 
 
+            <section>
+                <div class="contact-area" id="contact">
+                    <div class="container">
+                        <div class="section-title">
+                            <h1>stay with <span>us</span> </h1>
+                        </div>
+                        <div class="contact-form">
+                            <form action="">
+                                 <div class="user-name">
+                                        <div class="f-name">
+                                            <label for="fname">First Name</label>
+                                            <input type="text" name="fname" placeholder="Your First Name">
+                                        </div>
+                                        <div class="l-name">
+                                            <label for="fname">last Name</label>
+                                            <input type="text" name="fname" placeholder="Your last Name">
+                                        </div>
+                                 </div>
+                                        <div class="user-email">
+                                            <label for="email">Your Email</label>
+                                            <input type="email" name="email" placeholder="Your Email">
+                                        </div>
+                                        <div class="user-msg">
+                                            <label for="msg">Type a message</label> <br>
+                                            <textarea name="msg" id="" cols="30" rows="10"></textarea>
+                                        </div>
+                                        <div class="submit-btn">
+                                            <input type="submit" value="submit">
+                                        </div>
+                               
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
        </main>
    
-
+<footer>
+    <div class="footer" >
+                 <div class="icon">
+                       <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-youtube"></i>
+                 </div>
+                 <div class="arrow" >
+                   <a href="#home"><i class="fas fa-arrow-up" id="home"></i></a>
+                 </div>
+                 <div class="text">
+                            <p>developed by || mijan rony || 2021</p>
+                 </div>
+    </div>
+</footer>
 
 </body>
 </html>
