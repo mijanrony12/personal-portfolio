@@ -303,4 +303,48 @@ textarea {
   .menu ul li {
     margin: 0 7px;
   }
+  .cover-content {
+    padding: 300px 10px;
+  }
+  .cover-content h3 {
+    font-size: 1.4rem;
+  }
+  .cover-content h3 span {
+    font-size: 1.8rem;
+  }
+  .about-section {
+    display: block;
+    width: 100%;
+  }
+  .own-feild {
+    width: 100%;
+    margin: 0px;
+  }
+  .own-feild img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-left: 0px;
+  }
+  .content {
+    width: 100%;
+    margin: 0px;
+  }
+  .team-members {
+    display: block;
+  }
+  .member {
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .arrow {
+    margin: 25px 0px;
+  }
 }
