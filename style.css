@@ -299,19 +299,7 @@ textarea {
   .search-feild {
     text-align: center;
   }
-  .menu {
-    width: 40%;
-  }
-  .menu ul {
-    width: 40%;
-    margin: 0 auto;
-  }
-  .menu ul li {
-    text-align: center;
-  }
-  .menu ul li a {
-    text-align: center;
-  }
+
   .cover-content {
     padding: 300px 10px;
   }
@@ -322,6 +310,7 @@ textarea {
     font-size: 1rem;
   }
   .about-section {
+    margin: 0px;
     display: block;
     width: 100%;
   }
@@ -330,14 +319,16 @@ textarea {
     margin: 0px;
   }
   .own-feild img {
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    margin-left: 0px;
   }
   .content {
     width: 100%;
     margin: 0px;
+  }
+  .content h2 {
+    padding-top: 20px;
+  }
+  .content p {
+    text-align: justify;
   }
   .team-members {
     display: block;
